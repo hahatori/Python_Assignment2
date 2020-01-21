@@ -1,6 +1,6 @@
 # Python_Assignment2
 
-![welcome](https://github.com/hahatori/Python_Assignment1/blob/master/images/welcome.jpg)
+![welcome](https://github.com/hahatori/Python_Assignment1/blob/master/images/welcome1.jpg)
 
 This is an independent Assignment. You can find the contents, software，and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
 
