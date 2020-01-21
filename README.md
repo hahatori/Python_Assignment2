@@ -12,8 +12,8 @@ My student id is 201308685.
 - [Software](#software)
 - [Assignment](#assignment)
 - [Run](#run)
+- [Issues](#issues)
 - [Results](#results)
-
 - [License](#license)
 
 ## Introduction
@@ -32,6 +32,8 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 **Spyder** is a simple integrated development environment. Its main advantage over other Python development environments is that it mimics the "workspace" of MATLAB, making it easy to view and modify array values.
 
+**Jupyter** is an interactive computing environment that supports more than 40 programming languages. Easy to create and share documentation of literary programs, support real-time code, mathematical equations, visualization, and documentation. Applications include data cleansing and transformation, numerical simulation, statistical modeling, machine learning, etc.
+
 ## Assignment
 
 This project including [in.txt](https://github.com/hahatori/IO/blob/master/in.txt), [in.txt](https://github.com/hahatori/IO/blob/master/in.txt), [agentframework.py](https://github.com/hahatori/IO/blob/master/agentframework.py) and [model.py](https://github.com/hahatori/IO/blob/master/model.py).
@@ -44,15 +46,18 @@ This project uses [Anaconda]() and [Spyder](). Go check them out if you don't ha
 
 The last GUI file to run is created by modifying the code from the first few files. Agents and models interact with each other, import agents and other python packages by running the model.py to output the results.
 
+## Issues
+
+
 ## Results
 
-### what is to be expected when it is run
+### Theoretical Results(what is to be expected when it is run)
 
 The expected result is the agents can interact with each other and have a GUI that shows the animation by input or modify parameters.  
 
 Modify the IPython console from GUI.py to run to produce a separate window, called "My Model". The top left corner displays the window menu called "Model". Click on the menu displays a drop-down list named "Run model", continuing to click on it，displays an scatter plot animation.
 
-
+### Actual Results
 
 
 ## License
