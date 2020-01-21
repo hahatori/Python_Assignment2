@@ -2,18 +2,25 @@
 
 ![welcome](https://github.com/hahatori/Python_Assignment1/blob/master/images/welcome.jpg)
 
-This is an integrated Assignment, including 5 parts. You can find the contents, software and license down here, click on it and each repository has a README.md file that describes the entire repository, like how it can be run, the expected and actual results, etc. In addition, each directory contains the main program, environment and some required files. 
+This is an independent Assignment. You can find the contents, software，and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
 
 My student id is 201308685.
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Software](#software)
 - [Assignment](#assignment)
 - [Run](#run)
 - [Results](#results)
-- [Document](#document)
+
 - [License](#license)
+
+## Introduction
+
+
+
+See the description of **README.md**. These documents provides details about every respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
 
 ## Software
 
@@ -27,13 +34,7 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 ## Assignment
 
-My Programming Assignment1 contains 5 parts. This is a simple list of what all the practicals. 
-
-1. [Agents!](https://github.com/hahatori/Agents)
-2. [I/O](https://github.com/hahatori/IO)
-3. [Communicating](https://github.com/hahatori/Communicating)
-4. [Animation/Behaviour](https://github.com/hahatori/Animation)
-5. [GUI/Web scraping](https://github.com/hahatori/GUI)
+This project including [in.txt](https://github.com/hahatori/IO/blob/master/in.txt), [in.txt](https://github.com/hahatori/IO/blob/master/in.txt), [agentframework.py](https://github.com/hahatori/IO/blob/master/agentframework.py) and [model.py](https://github.com/hahatori/IO/blob/master/model.py).
 
 ## Run
 
@@ -51,15 +52,7 @@ The expected result is the agents can interact with each other and have a GUI th
 
 Modify the IPython console from GUI.py to run to produce a separate window, called "My Model". The top left corner displays the window menu called "Model". Click on the menu displays a drop-down list named "Run model", continuing to click on it，displays an scatter plot animation.
 
-## Document
 
-See the description of each **README.md**. These documents provides details about every respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
-
-- [README_Agents](https://github.com/hahatori/Agents)
-- [README_I/O](https://github.com/hahatori/IO)
-- [README_Communicating](https://github.com/hahatori/Communicating)
-- [README_Animation](https://github.com/hahatori/Animation)
-- [README_GUI](https://github.com/hahatori/GUI)
 
 
 ## License
