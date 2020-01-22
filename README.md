@@ -71,10 +71,12 @@ $ plt.subplot(2,2,2)
 
 Output:
 
-![Matplotlib frame](https://github.com/hahatori/Python_Assignment1/blob/master/Matplotlib.png)
+![Multiple plots](https://github.com/hahatori/Python_Assignment2/blob/master/three_plot.png)
 
 
 ### List algorithms
+
+When we calculate the weights of p and r, we need to use **weight x raster**. But if we just multiply the list by the weight, like ```l = [1, 2, 3] * 2```, we will get ```[1, 2, 3, 1, 2, 3]```. If we want to get ```[2, 4, 6]```, we can use ```[x*2 for x in l]```. Besides, list can not be directly multiplied by floats, so we need **numpy**, such as ```np.multiply(np.array(p),0.8)```.
 
 ### Save the raster map as a text file
 
@@ -93,4 +95,4 @@ Modify the IPython console from GUI.py to run to produce a separate window, call
 
 ## License
 
-[MIT](https://github.com/hahatori/Python_Assignment1/blob/master/License)© Tori
+[MIT](https://github.com/hahatori/Python_Assignment2/blob/master/LICENSE)© Tori
