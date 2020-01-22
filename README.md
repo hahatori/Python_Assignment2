@@ -37,11 +37,9 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 ## Run
 
-### Steps: how it can be run
+### Steps: how it can be run （UML图研究一下）
 
-This project uses [Anaconda]() and [Spyder](). Go check them out if you don't have them locally installed.
 
-The last GUI file to run is created by modifying the code from the first few files. Agents and models interact with each other, import agents and other python packages by running the model.py to output the results.
 
 ## Issues
 
@@ -76,13 +74,15 @@ Output:
 
 ### List algorithms
 
-When we calculate the weights of p and r, we need to use **weight x raster**. But if we just multiply the list by the weight, like ```l = [1, 2, 3] * 2```, we will get ```[1, 2, 3, 1, 2, 3]```. If we want to get ```[2, 4, 6]```, we can use ```[x*2 for x in l]```. Besides, list can not be directly multiplied by floats, so we need **numpy**, such as ```np.multiply(np.array(p),0.8)```.
+When we calculate the weights of p and r, we need to use **weight x raster**. But if we just multiply the list by the weight, like ```l = [1, 2, 3] * 2```, we will get ```[1, 2, 3, 1, 2, 3]```. If we want to get ```[2, 4, 6]```, we can use ```[x*2 for x in l]```. Besides, list can not be directly multiplied by floats, we need import **numpy** package to get ```[0.8, 1.6, 2.4]```,  so the code should be ```numpy.multiply(np.array(l),0.8)```.
 
 ### Save the raster map as a text file
 
-### Change the parameter weights (Tkinter)
+After the raster map (d) is generated, we should consider that the **List** cannot be saved as text files directly, and set the decimal places of the output. ```numpy.savetxt('death.deaths.txt',d,fmt='%.2f')``` helps us a lot.
 
-## Results
+### Change the parameter weights (Tkinter)还没写
+
+## Results下面俩需要改
 
 ### Theoretical Results(what is to be expected when it is run)
 
