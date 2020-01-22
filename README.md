@@ -45,7 +45,20 @@ The last GUI file to run is created by modifying the code from the first few fil
 
 ## Issues
 
+See the description of **Document** in Jupyter. This document provides details about the respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
+
 ### Display multiple plots on the screen
+
+**Matplotlib** is a Python 2D drawing library that generates graphics in a variety of hardcopy formats and cross-platform interactive environments. With Matplotlib, developers can generate graphs, histograms, power spectra, bar charts, error graphs, scatter plots, etc. in just a few lines of code.
+
+Using
+```sh
+$ import matplotlib.pyplot as plt
+
+  plt.subplot(2,2,1)
+  plt.imshow(p)
+```
+to load the **matplotlib** package, meaning the screen is divided into 2 x 2, and the p plot will be displayed in the upper left corner of the screen.
 
 ### List algorithms
 
