@@ -25,7 +25,7 @@ See the description of **README.md**. These documents provides details about eve
 
 ## Software
 
-This project uses [Python](https://www.python.org), [Anaconda](https://www.anaconda.com) and [Spyder](https://www.spyder-ide.org). Go check them out if you don't have them locally installed.
+This project uses [Python](https://www.python.org), [Anaconda](https://www.anaconda.com), [Spyder](https://www.spyder-ide.org) and [Jupyter](https://jupyter.org). Go check them out if you don't have them locally installed.
 
 **Python** is a cross-platform computer programming language. Is an object-oriented dynamically typed language that was originally designed to write automated scripts (shells) and is increasingly being used for independent, large-scale project development as versions are updated and new features are added to the language.
 
@@ -45,6 +45,13 @@ The last GUI file to run is created by modifying the code from the first few fil
 
 ## Issues
 
+### Display multiple plots on the screen
+
+### List algorithms
+
+### Save the raster map as a text file
+
+### Change the parameter weights (Tkinter)
 
 ## Results
 
