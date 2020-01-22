@@ -10,7 +10,6 @@ My student id is 201308685.
 
 - [Introduction](#introduction)
 - [Software](#software)
-- [Assignment](#assignment)
 - [Run](#run)
 - [Issues](#issues)
 - [Results](#results)
@@ -20,7 +19,7 @@ My student id is 201308685.
 
 There are 2 x(400 by 400) raster maps called **death.parishes.txt** and **death.rats.txt**. One is average rats caught per week per 100m x 100m square(r), another is average population density per 100m x 100m square(p). By weighting the two raster maps and multiplying them together, calculate the average deaths per week per 100m x 100m square(d) and save it as a **death.deaths.txt** file. In addition, consider whether users can automatically input or select weights to change the d.
 
-This project including [death.parishes.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.parishes.txt), [death.rats.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.rats.txt), [death.deaths.txt](https:) and [model.py](https://github.com/hahatori/Python_Assignment2/blob/master/model.py).
+This project including [death.parishes.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.parishes.txt), [death.rats.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.rats.txt), [death.deaths.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.deaths.txt) and [model.py](https://github.com/hahatori/Python_Assignment2/blob/master/model.py).
 
 See the description of **README.md**. These documents provides details about every respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
 
@@ -36,13 +35,9 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 **Jupyter** is an interactive computing environment that supports more than 40 programming languages. Easy to create and share documentation of literary programs, support real-time code, mathematical equations, visualization, and documentation. Applications include data cleansing and transformation, numerical simulation, statistical modeling, machine learning, etc.
 
-## Assignment
-
-This project including [in.txt](https://github.com/hahatori/IO/blob/master/in.txt), [in.txt](https://github.com/hahatori/IO/blob/master/in.txt), [agentframework.py](https://github.com/hahatori/IO/blob/master/agentframework.py) and [model.py](https://github.com/hahatori/IO/blob/master/model.py).
-
 ## Run
 
-### how it can be run
+### Steps: how it can be run
 
 This project uses [Anaconda]() and [Spyder](). Go check them out if you don't have them locally installed.
 
