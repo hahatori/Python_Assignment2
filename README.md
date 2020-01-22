@@ -18,7 +18,9 @@ My student id is 201308685.
 
 ## Introduction
 
+There are 2 x(400 by 400) raster maps called **death.parishes.txt** and **death.rats.txt**. One is average rats caught per week per 100m x 100m square(r), another is average population density per 100m x 100m square(p). By weighting the two raster maps and multiplying them together, calculate the average deaths per week per 100m x 100m square(d) and save it as a **death.deaths.txt** file. In addition, consider whether users can automatically input or select weights to change the d.
 
+This project including [death.parishes.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.parishes.txt), [death.rats.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.rats.txt), [death.deaths.txt](https:) and [model.py](https://github.com/hahatori/Python_Assignment2/blob/master/model.py).
 
 See the description of **README.md**. These documents provides details about every respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
 
