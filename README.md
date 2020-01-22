@@ -2,7 +2,7 @@
 
 ![welcome](https://github.com/hahatori/Python_Assignment1/blob/master/images/welcome1.jpg)
 
-This is an independent Assignment. You can find the contents, software，and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
+This is an independent Assignment. You can find the contents, software，document and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
 
 My student id is 201308685.
 
@@ -21,7 +21,7 @@ There are 2 x(400 by 400) raster maps called **death.parishes.txt** and **death.
 
 This project including [death.parishes.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.parishes.txt), [death.rats.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.rats.txt), [death.deaths.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.deaths.txt) and [model.py](https://github.com/hahatori/Python_Assignment2/blob/master/model.py).
 
-See the description of **README.md**. These documents provides details about every respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
+See the description of **README.md**. This document provides details about this respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
 
 ## Software
 
@@ -43,13 +43,13 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 ## Issues
 
-See the description of **Document** in Jupyter. This document provides details about the respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
+See the description of **Document** (改成链接) in Jupyter. This document provides details about the respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
 
-### Display multiple plots on the screen
+### Display multiple plots on one screen
 
-**Matplotlib** is a Python 2D drawing library that generates graphics in a variety of hardcopy formats and cross-platform interactive environments. With Matplotlib, developers can generate graphs, histograms, power spectra, bar charts, error graphs, scatter plots, etc. in just a few lines of code.
+**matplotlib** is a Python 2D drawing library that generates graphics in a variety of hardcopy formats and cross-platform interactive environments. With Matplotlib, developers can generate graphs, histograms, power spectra, bar charts, error graphs, scatter plots, etc. in just a few lines of code.
 
-Using the following code to load the **matplotlib** package, meaning the screen is divided into 2 x 2, and the p plot will be displayed in the upper left corner of the screen.
+Using the following code to load the matplotlib package, meaning the screen is divided into 2 x 2, and the p plot will be displayed in the upper left corner of the screen.
 
 ```sh
 $ import matplotlib.pyplot as plt
@@ -58,7 +58,7 @@ $ import matplotlib.pyplot as plt
   plt.imshow(p)
 ```
 
-In the same way, display r and d on the screen:
+In the same way, display r and d on the same screen:
 
 ```sh
 $ plt.subplot(2,2,2)
@@ -78,9 +78,9 @@ When we calculate the weights of p and r, we need to use **weight x raster**. Bu
 
 ### Save the raster map as a text file
 
-After the raster map (d) is generated, we should consider that the **List** cannot be saved as text files directly, and set the decimal places of the output. ```numpy.savetxt('death.deaths.txt',d,fmt='%.2f')``` helps us a lot.
+After the raster map (d) is generated, we should consider that the **List** cannot be saved as text files directly, and we should set the decimal places of the output. ```numpy.savetxt('death.deaths.txt',d,fmt='%.2f')``` helps us a lot.
 
-### Change the parameter weights (Tkinter)还没写
+### Change the parameter weights (Tkinter)还没写,可以把GUI里的复制过来
 
 ## Results下面俩需要改
 
