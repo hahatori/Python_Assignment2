@@ -51,14 +51,28 @@ See the description of **Document** in Jupyter. This document provides details a
 
 **Matplotlib** is a Python 2D drawing library that generates graphics in a variety of hardcopy formats and cross-platform interactive environments. With Matplotlib, developers can generate graphs, histograms, power spectra, bar charts, error graphs, scatter plots, etc. in just a few lines of code.
 
-Using
+Using the following code to load the **matplotlib** package, meaning the screen is divided into 2 x 2, and the p plot will be displayed in the upper left corner of the screen.
+
 ```sh
 $ import matplotlib.pyplot as plt
 
   plt.subplot(2,2,1)
   plt.imshow(p)
 ```
-to load the **matplotlib** package, meaning the screen is divided into 2 x 2, and the p plot will be displayed in the upper left corner of the screen.
+
+In the same way, display r and d on the screen:
+
+```sh
+$ plt.subplot(2,2,2)
+  plt.imshow(r)
+  plt.subplot(2,2,3)
+  plt.imshow(d) 
+```
+
+Output:
+
+![Matplotlib frame](https://github.com/hahatori/Python_Assignment1/blob/master/Matplotlib.png)
+
 
 ### List algorithms
 
