@@ -21,7 +21,6 @@ There are 2 x(400 by 400) raster maps called **death.parishes.txt** and **death.
 
 This project including [death.parishes.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.parishes.txt), [death.rats.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.rats.txt), [death.deaths.txt](https://github.com/hahatori/Python_Assignment2/blob/master/death.deaths.txt) and [model.py](https://github.com/hahatori/Python_Assignment2/blob/master/model.py).
 
-See the description of **README.md**. This document provides details about this respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
 
 ## Software
 
