@@ -49,27 +49,27 @@ See the description of **Document** (改成链接) in Jupyter. This document pro
 
 **matplotlib** is a Python 2D drawing library that generates graphics in a variety of hardcopy formats and cross-platform interactive environments. With Matplotlib, developers can generate graphs, histograms, power spectra, bar charts, error graphs, scatter plots, etc. in just a few lines of code.
 
-Using the following code to load the matplotlib package, meaning the screen is divided into 2 x 2, and the p plot will be displayed in the upper left corner of the screen.
+Using the following code to load the matplotlib package, meaning the screen is divided into 1 x 3, and the p plot will be displayed in the upper left corner of the screen.
 
 ```sh
 $ import matplotlib.pyplot as plt
 
-  plt.subplot(2,2,1)
+  plt.subplot(1,3,1)
   plt.imshow(p)
 ```
 
 In the same way, display r and d on the same screen:
 
 ```sh
-$ plt.subplot(2,2,2)
+$ plt.subplot(1,3,2)
   plt.imshow(r)
-  plt.subplot(2,2,3)
+  plt.subplot(1,3,3)
   plt.imshow(d) 
 ```
 
 Output:
 
-![Multiple plots]()
+![Multiple plots](https://github.com/hahatori/Python_Assignment2/blob/master/three_plot.png)
 
 
 ### List algorithms
@@ -82,13 +82,17 @@ After the raster map (d) is generated, we should consider that the **List** cann
 
 ### Change the parameter weights (Tkinter)还没写,可以把GUI里的复制过来
 
-## Results下面俩需要改
+**Tkinter** is the standard GUI library for Python which is built into the Python installation package. Python uses Tkinter to quickly create GUI applications.
 
-### Theoretical Results(what is to be expected when it is run)
+**Messagebox** can use button to trigger
 
-The expected result is the agents can interact with each other and have a GUI that shows the animation by input or modify parameters.  
+## Results第二个需要改
 
-Modify the IPython console from GUI.py to run to produce a separate window, called "My Model". The top left corner displays the window menu called "Model". Click on the menu displays a drop-down list named "Run model", continuing to click on it，displays an scatter plot animation.
+### Theoretical Results
+
+The expected result can display 3 raster maps(p, r, d) on the window, present the calculation result of total deaths and have a GUI that shows the animation by input or modify parameters.  
+
+Modify the IPython console from model.py to run to produce a separate window, called "my window". The top center displays the button，click it will show the total deaths data. Following users can insert weight and click "insert end" will change the plot of total deaths. Window menu in the top left called "Model". Click on the menu displays a drop-down list named "Run", continuing to click on it，changes the plot.
 
 ### Actual Results
 
