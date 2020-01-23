@@ -2,7 +2,7 @@
 
 ![welcome](https://github.com/hahatori/Python_Assignment1/blob/master/images/welcome1.jpg)
 
-This is an independent Assignment. You can find the contents, software，document and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
+This is an independent Assignment. You can find the contents, software, document and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
 
 My student id is 201308685.
 
@@ -69,7 +69,7 @@ $ plt.subplot(2,2,2)
 
 Output:
 
-![Multiple plots](https://github.com/hahatori/Python_Assignment2/blob/master/three_plot.png)
+![Multiple plots]()
 
 
 ### List algorithms
