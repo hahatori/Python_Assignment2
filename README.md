@@ -86,7 +86,7 @@ Calculate the weight of the average for each cell of d and add it up to get the 
 Using ```d = (0.8 x r) x (1.3 x p)``` to calculate the average deaths per week per 100m x 100m square, but the raster map is 400m x 400m, means the total deaths per week is sum of 16 100m x 100m cells. Since different **average deaths per 100m x 100m square** show different colors on the graph, the equation is ```(color1 * color_times1 + color2 * color_times2 + ...) / total_times```.
 
 
-### Change the parameter weights (Tkinter)还没写,可以把GUI里的复制过来
+### Change the parameter weights (Tkinter)
 
 **Tkinter** is the standard GUI library for Python which is built into the Python installation package. Python uses Tkinter to quickly create GUI applications.
 
