@@ -46,7 +46,7 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 **Step2 :** Calculate d by equation and save it as text.
 
-**Step3 :** Calculate the total deaths per week and use button to trigger.
+**Step3 :** Calculate the total deaths per week and use button to trigger. 
 
 **Step4 :** Create methods that allow users to modify weights and use tkinter to run.
 
@@ -93,16 +93,20 @@ After the raster map (d) is generated, we should consider that the **List** cann
 
 Calculate the weight of the average for each cell of d and add it up to get the total number of deaths for the week.
 
-Using ```d = (0.8 x r) x (1.3 x p)``` to calculate the average deaths per week per 100m x 100m square, but the raster map is 400m x 400m, means the total deaths per week is sum of 16 100m x 100m cells. Since different **average deaths per 100m x 100m square** show different colors on the graph, the equation is ```(color1 * color_times1 + color2 * color_times2 + ...) / total_times```.
+See [Total_Deaths](https://github.com/hahatori/Python_Assignment2/blob/master/Total_Deaths.docx) of how to calculate it.
 
-
-### Change the parameter weights (Tkinter)
-
-**Tkinter** is the standard GUI library for Python which is built into the Python installation package. Python uses Tkinter to quickly create GUI applications.
+Another way (may correct): Using ```d = (0.8 x r) x (1.3 x p)``` to calculate the average deaths per week per 100m x 100m square, but the raster map is 400m x 400m, means the total deaths per week is sum of 16 100m x 100m cells. Since different **average deaths per 100m x 100m square** show different colors on the graph, the equation is ```(color1 * color_times1 + color2 * color_times2 + ...) / total_times```.
 
 **Messagebox** can use button to trigger Popup window.
 
-![Messagebox](https://github.com/hahatori/Python_Assignment2/blob/master/messagebox.png)
+![Messagebox](https://github.com/hahatori/Python_Assignment2/blob/master/mb.png)
+
+### Change the parameter weights 
+
+Use ```input```  to allow the user to modify the weight，The input number will be converted to float. ```b1 = tkinter.Button(root,text="input",command=update)```can set button to run the established **update** method.
+
+**Tkinter** is the standard GUI library for Python which is built into the Python installation package. Python uses Tkinter to quickly create GUI applications.
+
 
 ## Results
 
@@ -114,7 +118,7 @@ Modify the IPython console from model.py to run to produce a separate window, ca
 
 ### Actual Results
 
-![AR](https://github.com/hahatori/Python_Assignment1/blob/master/AR.png)
+![AR](https://github.com/hahatori/Python_Assignment2/blob/master/AR.png)
 
 ## License
 
