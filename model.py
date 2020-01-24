@@ -82,8 +82,100 @@ np.savetxt('death.deaths.txt',d,fmt='%0.2f')
 print("Save successful") # A prompt will appear when d is saved successfully.
 
 
-
 # Find the number of average deaths in every pixel.
+fh1 = open(r'd.txt',"r")
+j=0
+allsum1=0
+allsum2=0
+allsum3=0
+allsum4=0
+allsum5=0
+allsum6=0
+allsum7=0
+allsum8=0
+allsum9=0
+allsum10=0
+allsum11=0
+allsum12=0
+allsum13=0
+allsum14=0
+allsum15=0
+allsum16=0
+
+sum1=0
+sum2=0
+sum3=0
+sum4=0
+
+
+for i in range(0,400):
+    data1 = fh1.readline()
+    j=j+1
+    line1=data1.split(",")
+ #   line1=list(map(int,line1))
+    line1=list(map(float,line1))   
+    
+    sum1=sum(line1[0:100]) 
+    sum2=sum(line1[100:200])
+    sum3=sum(line1[200:300])
+    sum4=sum(line1[300:400])
+
+    if j>=31:
+      allsum13=allsum13+sum1;
+      allsum14=allsum14+sum2;
+      allsum15=allsum15+sum3;
+      allsum16=allsum16+sum4; 
+    elif j>=21:
+      allsum9=allsum9+sum1;
+      allsum10=allsum10+sum2;
+      allsum11=allsum11+sum3;
+      allsum12=allsum12+sum4;
+    elif j>=11:
+      allsum5=allsum5+sum1;
+      allsum6=allsum6+sum2;
+      allsum7=allsum7+sum3;
+      allsum8=allsum8+sum4;
+    else:
+      allsum1=allsum1+sum1;
+      allsum2=allsum2+sum2;
+      allsum3=allsum3+sum3;
+      allsum4=allsum4+sum4
+ 
+    sum1=0
+    sum2=0
+    sum3=0
+    sum4=0
+
+#print(allsum1,allsum2,allsum3,allsum4,allsum5,allsum6,allsum7,allsum8,allsum9,allsum10,allsum11,allsum12,allsum13,allsum14,allsum15,allsum16)
+
+# Calculate the average deaths per week in 100m x 100m square.
+allsum1=allsum1/10000
+allsum2=allsum2/10000
+allsum3=allsum3/10000
+allsum4=allsum4/10000
+allsum5=allsum5/10000
+allsum6=allsum6/10000
+allsum7=allsum7/10000
+allsum8=allsum8/10000
+allsum9=allsum9/10000
+allsum10=allsum10/10000
+allsum11=allsum11/10000
+allsum12=allsum12/10000
+allsum13=allsum13/10000
+allsum14=allsum14/10000
+allsum15=allsum15/10000
+allsum16=allsum16/10000
+
+
+# Calculate the total deaths per week in 400m x 400m square.
+allsum=allsum1+allsum2+allsum3+allsum4+allsum5+allsum6+allsum7+allsum8+allsum9+allsum10+allsum11+allsum12+allsum13+allsum14+allsum15+allsum16
+#allsum=allsum/160000
+total = ("%d" % allsum)
+print(total)
+
+fh1.close()
+
+'''
 #i_d=[]
 #count_d=[]
 with open('death.deaths.txt','r') as f:
@@ -100,8 +192,8 @@ with open('death.deaths.txt','r') as f:
 #print(i_d) 
 #print(count_d)
        
-'''       
-#  Equation is:
+       
+# Same as steps above. Equation is:
 #(i_d1 * count_d1 + i_d2 * count_d2 +...+ i_dn * count_dn)/number_of_count_d
 # Steps: 1. Number of count_d.
 t = sum(count_d)
@@ -118,13 +210,7 @@ print(add)
 # 4. Calatuate the total deaths.  
 total = list(map(lambda x,y:x/y, add, t))  
 print(total)
-'''
-
-# Same as steps above.
-# Calculate the total deaths per week in 400m x 400m square.
-total =int((1642932688)/(121461))
-print(total)
-  
+'''  
       
 # Users can change weight by themselves.
 pop = [[x0 * 1.3 for x0 in y0] for y0 in p]
@@ -216,22 +302,7 @@ root.mainloop() #The window is constantly refreshing.
    
 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
     
     
