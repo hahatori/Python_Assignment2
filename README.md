@@ -24,15 +24,13 @@ This project including [death.parishes.txt](https://github.com/hahatori/Python_A
 
 ## Software
 
-This project uses [Python](https://www.python.org), [Anaconda](https://www.anaconda.com), [Spyder](https://www.spyder-ide.org) and [Jupyter](https://jupyter.org). Go check them out if you don't have them locally installed.
+This project uses [Python](https://www.python.org), [Anaconda](https://www.anaconda.com), [Spyder](https://www.spyder-ide.org) . Go check them out if you don't have them locally installed.
 
 **Python** is a cross-platform computer programming language. Is an object-oriented dynamically typed language that was originally designed to write automated scripts (shells) and is increasingly being used for independent, large-scale project development as versions are updated and new features are added to the language.
 
 **Anaconda** is an open source Python package manager that contains more than 180 science packages including conda, Python and their dependencies for computational science (data science, machine learning, big data processing and predictive analysis).
 
 **Spyder** is a simple integrated development environment. Its main advantage over other Python development environments is that it mimics the "workspace" of MATLAB, making it easy to view and modify array values.
-
-**Jupyter** is an interactive computing environment that supports more than 40 programming languages. Easy to create and share documentation of literary programs, support real-time code, mathematical equations, visualization, and documentation. Applications include data cleansing and transformation, numerical simulation, statistical modeling, machine learning, etc.
 
 ## Run
 
