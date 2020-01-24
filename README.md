@@ -4,7 +4,7 @@
 
 This is an independent Assignment. You can find the contents, software, document and license down here. This README.md file describes the entire repository, like how it can be run, problems and solutions, the expected and actual results, etc. In addition, this directory contains the main program, environment and some required files. 
 
-My student id is 201308685.
+My student id is 201308685. [Intro.html](https://github.com/hahatori/Python_Assignment2/blob/master/first1.html)
 
 ## Table of Contents
 
