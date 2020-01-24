@@ -52,8 +52,6 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 ## Issues
 
-See the description of **Document** (改成链接) in Jupyter. This document provides details about the respository, how to run the software, what to expect when it is run, outline any ‘known issues’ and outline any testing done.
-
 ### Display multiple plots on one screen
 
 **matplotlib** is a Python 2D drawing library that generates graphics in a variety of hardcopy formats and cross-platform interactive environments. With Matplotlib, developers can generate graphs, histograms, power spectra, bar charts, error graphs, scatter plots, etc. in just a few lines of code.
@@ -107,6 +105,20 @@ Use ```input```  to allow the user to modify the weight，The input number will 
 
 **Tkinter** is the standard GUI library for Python which is built into the Python installation package. Python uses Tkinter to quickly create GUI applications.
 
+### Unresolved issues
+
+1. Two windows appeared: My Model and Figure 1. Tried to remove the Figure 1 window, but failed.
+
+2. ```sh
+$ def run():
+  global ani
+  ani = matplotlib.animation.FuncAnimation(fig, update, frames=3, repeat=False) 
+  canvas.draw()
+  
+  # Execute ‘run’ command.
+  b3 = tkinter.Button(root,text="change weight",command=run)
+  b3.pack()
+  ``` After the weight changes, the program did not call "run" as expected to refresh the page and display the new plot in Windows. 
 
 ## Results
 
