@@ -95,7 +95,7 @@ Another way (may correct): Using ```d = (0.8 x r) x (1.3 x p)``` to calculate th
 
 **Messagebox** can use button to trigger Popup window.
 
-![Messagebox](https://github.com/hahatori/Python_Assignment2/blob/master/mb.png)
+![Messagebox](https://github.com/hahatori/Python_Assignment2/blob/master/meb.png)
 
 ### Change the parameter weights 
 
