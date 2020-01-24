@@ -76,7 +76,6 @@ plt.subplot(1,3,3)   # d is in the third position.
 plt.title("Deaths Plot")
 plt.imshow(d)
 
-
 # Save text file
 np.savetxt('death.deaths.txt',d,fmt='%0.2f')
 print("Save successful") # A prompt will appear when d is saved successfully.
@@ -193,8 +192,7 @@ with open('death.deaths.txt','r') as f:
 #print(count_d)
        
        
-# Same as steps above. Equation is:
-#(i_d1 * count_d1 + i_d2 * count_d2 +...+ i_dn * count_dn)/number_of_count_d
+# Same as steps above. 
 # Steps: 1. Number of count_d.
 t = sum(count_d)
 print(t)
@@ -227,16 +225,14 @@ def update():
     rat = [[x1 * w2 for x1 in y1] for y1 in r]
     return pop, rat
 
-
 '''
 def multiply(pop, rat):
     #return pop*rat
 
 ww=multiply(pop, rat)
-print(ww)
-    
-
+print(ww)   
 '''
+
 def output():
     var = e.get()
     # t.insert('end', var)
