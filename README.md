@@ -36,9 +36,19 @@ This project uses [Python](https://www.python.org), [Anaconda](https://www.anaco
 
 ## Run
 
-### Steps: how it can be run （UML图研究一下）
+### UML diagram 
 
+![UML](https://github.com/hahatori/Python_Assignment2/blob/master/UML.png)
 
+### Steps
+
+**Step1 :** Open two text files (p,r), create 2 lists to save data.
+
+**Step2 :** Calculate d by equation and save it as text.
+
+**Step3 :** Calculate the total deaths per week and use button to trigger.
+
+**Step4 :** Create methods that allow users to modify weights and use tkinter to run.
 
 ## Issues
 
@@ -94,16 +104,17 @@ Using ```d = (0.8 x r) x (1.3 x p)``` to calculate the average deaths per week p
 
 ![Messagebox](https://github.com/hahatori/Python_Assignment2/blob/master/messagebox.png)
 
-## Results第二个需要改
+## Results
 
 ### Theoretical Results
 
 The expected result can display 3 raster maps(p, r, d) on the window, present the calculation result of total deaths and have a GUI that shows the animation by input or modify parameters.  
 
-Modify the IPython console from model.py to run to produce a separate window, called "my window". The top center displays the button，click it will show the total deaths data. Following users can insert weight and click "insert end" will change the plot of total deaths. Window menu in the top left called "Model". Click on the menu displays a drop-down list named "Run", continuing to click on it，changes the plot.
+Modify the IPython console from model.py to run to produce a separate window, called "my window". The top center displays the button "hit me"，click it will show the total deaths data. Following users can click "input" and input weights in the bottom right. Click "change weight" will show the new plot of total deaths. If you input numbers in the textbox, click "output" will show a same number on the screen.
 
 ### Actual Results
 
+![AR](https://github.com/hahatori/Python_Assignment1/blob/master/AR.png)
 
 ## License
 
